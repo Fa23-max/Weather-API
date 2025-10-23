@@ -6,7 +6,7 @@ import os
 def create_env_file():
     """Create .env file with the provided API key"""
     
-    api_key = "76ESP89QU2Q5T4HVLMGQVRB8J"
+    api_key = "Weather api"
     
     env_content = f"""# Visual Crossing Weather API Key
 WEATHER_API_KEY={api_key}
